@@ -1,0 +1,49 @@
+{
+  "full_name": "Hakeem Erisan",
+  "name": "Hakeem",
+  "current_role": "Senior Software Engineer",
+  "location": "Lagos, Nigeria",
+  "phone": "+2349130259262",
+  "email": "erisanolasheni@gmail.com",
+  "specialties": [
+    "Full-stack engineering (Python, JavaScript/TypeScript, Node.js, Next.js, NestJS, Django)",
+    "Cloud & DevOps (AWS, Docker, CI/CD, GitHub Actions)",
+    "Observability (OpenTelemetry, SigNoz, APM, k6 load testing)",
+    "Data stores (PostgreSQL, MySQL, MongoDB, Redis)",
+    "Messaging (RabbitMQ, Apache Kafka)",
+    "Fintech, healthcare, and education-sector delivery"
+  ],
+  "years_experience": 10,
+  "notable_employers": [
+    "MTN Nigeria — Senior Software Engineer (Aurora Core Service, microservices)",
+    "GenevaHQ — CTO (lending platform, Next.js, NestJS)",
+    "Alajo Technologies — VP Engineering (NestJS, pre-seed funding milestone)",
+    "Manyactive — Senior Full Stack Developer (fitness platform)",
+    "Freelancer.com — Senior Full Stack Engineer (Top 1% Preferred Freelancer)",
+    "SIIT Online Training — Full Stack Team Lead (large-scale APIs and e-learning)"
+  ],
+  "education": [
+    {
+      "degree": "BSc. Computer Science (not completed)",
+      "institution": "National Open University of Nigeria",
+      "note": "As listed on resume"
+    },
+    {
+      "degree": "Diploma in Python",
+      "institution": "SIIT.CO Online Training and Certifications",
+      "year": ""
+    },
+    {
+      "degree": "Diploma in PHP/MySQL",
+      "institution": "SIIT.CO Online Training and Certifications",
+      "year": ""
+    }
+  ],
+  "certifications_honors": [
+    "Secure Lagos Hackathon Winner (Passion Incubator & FCMB)",
+    "Diplomas from SIIT.CO (Python, PHP/MySQL)"
+  ],
+  "open_source": [
+    "Author of Custom Env (Node.js) — 26,000+ weekly downloads (per resume)"
+  ]
+}

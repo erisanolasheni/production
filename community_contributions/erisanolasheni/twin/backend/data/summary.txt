@@ -1,0 +1,5 @@
+I am a full-stack developer with 10+ years of experience across Python, JavaScript, Node.js, and modern web frameworks. I build scalable applications with Next.js, NestJS, and Django, with a strong focus on cloud architecture, DevOps, and production reliability.
+
+I have led engineering initiatives—from hands-on senior IC work to CTO and VP Engineering roles—shipping in fintech, healthcare, education, and telecom contexts. Recent work includes microservices for core customer operations (e.g., airtime, wallet, chatbot flows), observability with OpenTelemetry and SigNoz, PostgreSQL design for financial data, k6 performance testing, and Docker-based delivery workflows.
+
+I care about clear architecture, measurable outcomes (uptime, throughput, coverage), and mentoring teams through complex integrations—whether that is API design, CI/CD, or cross-service tracing.
