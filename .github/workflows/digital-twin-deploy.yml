@@ -4,6 +4,11 @@
 # Secrets: AWS_DEPLOY_ROLE_ARN, TF_STATE_BUCKET; optional TF_LOCK_TABLE.
 # OIDC role trust must allow repo:erisanolasheni/production (this fork).
 #
+# Workspace vs environment: Terraform workspace (state file) is separate from
+# -var environment=dev (resource names). Use repo variable TERRAFORM_WORKSPACE=default
+# if your remote state lives in the default workspace (matches local `terraform workspace show`).
+# DEPLOY_ENVIRONMENT still sets -var environment (dev|test|prod) for twin-dev-* names.
+#
 name: Deploy Digital Twin
 
 on:
@@ -85,11 +90,11 @@ jobs:
       - name: Select Terraform workspace
         working-directory: community_contributions/erisanolasheni/twin/terraform
         env:
-          DEPLOY_ENVIRONMENT: ${{ vars.DEPLOY_ENVIRONMENT }}
+          TERRAFORM_WORKSPACE: ${{ vars.TERRAFORM_WORKSPACE }}
         run: |
           set -euo pipefail
-          E="${DEPLOY_ENVIRONMENT:-dev}"
-          terraform workspace select "$E" 2>/dev/null || terraform workspace new "$E"
+          W="${TERRAFORM_WORKSPACE:-default}"
+          terraform workspace select "$W" 2>/dev/null || terraform workspace new "$W"
 
       - name: Terraform apply
         working-directory: community_contributions/erisanolasheni/twin/terraform
